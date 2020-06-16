@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.herokuapp.theinternet.base.TestUtilities;
 import com.herokuapp.theinternet.pages.LoginPage;
 import com.herokuapp.theinternet.pages.SecureAreaPage;
-import com.herokuapp.theinternet.pages.WelcomePageObject;
+import com.herokuapp.theinternet.pages.WelcomePage;
 
 public class LoginTest extends TestUtilities{
 		
@@ -14,7 +14,7 @@ public class LoginTest extends TestUtilities{
 	@Test
 	public void loginFunction(String name, String password, String message)
 	{	
-		WelcomePageObject welcomepage=new WelcomePageObject(driver,log);
+		WelcomePage welcomepage=new WelcomePage(driver,log);
 		welcomepage.openpage();
 		LoginPage loginpage=welcomepage.ClickFormAuth();
 		SecureAreaPage secureareapage=loginpage.LogIn(name, password);

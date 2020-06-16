@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.herokuapp.theinternet.LoginTest">
+      <class name="com.herokuapp.theinternet.DragandDropTest">
         <methods>
-          <include name="loginFunction"/>
           <include name="intializeDriver"/>
           <include name="closeDriver"/>
+          <include name="DragandDropTest"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.LoginTest -->
+      </class> <!-- com.herokuapp.theinternet.DragandDropTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

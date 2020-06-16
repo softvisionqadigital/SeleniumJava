@@ -22,12 +22,12 @@ public class BrowserDriverFactory {
 		log.info("Create driver: " + browser);
 		
 		switch (browser) {
-		case "Chrome":
+		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver.set(new ChromeDriver());
 			break;
 			
-		case "Firefox":
+		case "firefox":
 			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 			driver.set(new FirefoxDriver());
 			break;

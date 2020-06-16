@@ -14,7 +14,7 @@ public class BaseFunctions {
 protected WebDriver driver;
 protected Logger log;
 	
-	@Parameters({"browser"})
+    @Parameters("browser")
 	@BeforeMethod(alwaysRun=true)
 	public void intializeDriver(String browser, ITestContext ctx)
 	{

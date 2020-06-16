@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class SecureAreaPage extends BasePageObject {
+public class SecureAreaPage extends BasePage {
 	
 	private By messageLocator=By.xpath("//div[@class='row']/div/div[@id='flash']");
 		
