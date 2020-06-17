@@ -1,0 +1,8 @@
+url = https://docs.google.com/forms
+username = seleniumdemo331
+password = SeleniumDemo@123
+driverpath = src//test//resources//Drivers//chromedriver.exe
+ExcelPath = src//test//resources//Data.xlsx
+Questionssheet = QUESTIONAIRE
+FormDetailSheet = FormDetailSheet
+udemyUrl = https://www.udemy.com/
