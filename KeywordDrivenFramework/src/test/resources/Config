@@ -1,0 +1,6 @@
+url = https://docs.google.com/forms
+email = seleniumdemo331
+password = SeleniumDemo@123
+driverpath = src//test//resources//Drivers//chromedriver.exe
+ExcelPath = src//test//resources//Datainput//InputData.xlsx
+ExcelSheet = TestSteps
