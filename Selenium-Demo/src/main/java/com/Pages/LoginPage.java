@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.base.Utility_Methods;
 import com.base.initDriver;
 
 public class LoginPage extends initDriver {
@@ -30,7 +31,9 @@ public class LoginPage extends initDriver {
 		nextbtn.click();
 		paswd.sendKeys(prop.getProperty("password"));
 		pswdnxtBtn.click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
+		Utility_Methods.takeScrnshot(driver, "src//test//resources//Screenshots//test.png");
+		Thread.sleep(2000);
 		return new FormPage();
 	}
 

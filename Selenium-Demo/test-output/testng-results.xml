@@ -1,81 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium_Demo" duration-ms="62048" started-at="2020-06-17T13:19:07 IST" finished-at="2020-06-17T13:20:09 IST">
+  <suite name="Default suite" duration-ms="82386" started-at="2020-06-26T15:09:03 IST" finished-at="2020-06-26T15:10:25 IST">
     <groups>
     </groups>
-    <test name="DataDrivenFramework" duration-ms="24621" started-at="2020-06-17T13:19:07 IST" finished-at="2020-06-17T13:19:32 IST">
+    <test name="Default test" duration-ms="82386" started-at="2020-06-26T15:09:03 IST" finished-at="2020-06-26T15:10:25 IST">
       <class name="Test.TestCases">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Test.TestCases@614ddd49]" name="launchbrowser" is-config="true" duration-ms="8396" started-at="2020-06-17T13:19:07 IST" finished-at="2020-06-17T13:19:15 IST">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Test.TestCases@694e1548]" name="launchbrowser" is-config="true" duration-ms="9910" started-at="2020-06-26T15:09:03 IST" finished-at="2020-06-26T15:09:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="getRowCount()[pri:1, instance:Test.TestCases@614ddd49]" name="getRowCount" duration-ms="669" started-at="2020-06-17T13:19:15 IST" finished-at="2020-06-17T13:19:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getRowCount -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Test.TestCases@614ddd49]" name="login" duration-ms="12082" started-at="2020-06-17T13:19:15 IST" finished-at="2020-06-17T13:19:28 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:Test.TestCases@694e1548]" name="login" duration-ms="27599" started-at="2020-06-26T15:09:13 IST" finished-at="2020-06-26T15:09:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="addquestions()[pri:2, instance:Test.TestCases@614ddd49]" name="addquestions" duration-ms="2012" started-at="2020-06-17T13:19:15 IST" finished-at="2020-06-17T13:19:17 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at Test.TestCases.addquestions(TestCases.java:102)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="getRowCount()[pri:1, instance:Test.TestCases@694e1548]" name="getRowCount" duration-ms="242" started-at="2020-06-26T15:09:40 IST" finished-at="2020-06-26T15:09:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRowCount -->
+        <test-method status="PASS" signature="addquestions()[pri:2, instance:Test.TestCases@694e1548]" name="addquestions" duration-ms="44280" started-at="2020-06-26T15:09:41 IST" finished-at="2020-06-26T15:10:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addquestions -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Test.TestCases@614ddd49]" name="close" is-config="true" duration-ms="4094" started-at="2020-06-17T13:19:28 IST" finished-at="2020-06-17T13:19:32 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.TestCases@694e1548]" name="close" is-config="true" duration-ms="252" started-at="2020-06-26T15:10:25 IST" finished-at="2020-06-26T15:10:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Test.TestCases -->
-    </test> <!-- DataDrivenFramework -->
-    <test name="LearningDemos" duration-ms="37358" started-at="2020-06-17T13:19:32 IST" finished-at="2020-06-17T13:20:09 IST">
-      <class name="Demos.WindowHandling_Class">
-        <test-method status="PASS" signature="handlingwindows()[pri:0, instance:Demos.WindowHandling_Class@e320068]" name="handlingwindows" duration-ms="15828" started-at="2020-06-17T13:19:32 IST" finished-at="2020-06-17T13:19:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingwindows -->
-      </class> <!-- Demos.WindowHandling_Class -->
-      <class name="Demos.MouseActions">
-        <test-method status="PASS" signature="performingMouseActions()[pri:0, instance:Demos.MouseActions@76f2b07d]" name="performingMouseActions" duration-ms="37353" started-at="2020-06-17T13:19:32 IST" finished-at="2020-06-17T13:20:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performingMouseActions -->
-      </class> <!-- Demos.MouseActions -->
-      <class name="Demos.AlertClass">
-        <test-method status="PASS" signature="AlertHandling()[pri:0, instance:Demos.AlertClass@1f57539]" name="AlertHandling" duration-ms="12733" started-at="2020-06-17T13:19:32 IST" finished-at="2020-06-17T13:19:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AlertHandling -->
-      </class> <!-- Demos.AlertClass -->
-      <class name="Demos.Frames">
-        <test-method status="PASS" signature="handlingFrames()[pri:0, instance:Demos.Frames@536aaa8d]" name="handlingFrames" duration-ms="16625" started-at="2020-06-17T13:19:32 IST" finished-at="2020-06-17T13:19:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingFrames -->
-      </class> <!-- Demos.Frames -->
-    </test> <!-- LearningDemos -->
-  </suite> <!-- Selenium_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
