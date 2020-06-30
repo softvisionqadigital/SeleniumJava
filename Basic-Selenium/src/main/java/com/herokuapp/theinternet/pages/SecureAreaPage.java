@@ -3,19 +3,23 @@ package com.herokuapp.theinternet.pages;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 public class SecureAreaPage extends BasePage {
-	
-	private By messageLocator=By.xpath("//div[@class='row']/div/div[@id='flash']");
-		
+
+	private By messageLocator = By.xpath("//div[@class='row']/div/div[@id='flash']");
+	private By LogoutLocator = By.xpath("//div[@class='example']/a");
+
 	public SecureAreaPage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
-public void VerifyLogin(String message)
-{
-	log.info("Verify Log in Message");
-	String actual=getContent(messageLocator);
-	Assert.assertTrue(actual.contains(message));	
-}
+
+	public String GetMessage() {
+		log.info("Get Log in Message");
+		return getContent(messageLocator);
+	}
+
+	public void Logout() {
+		log.info("Click Log out button");
+		click(LogoutLocator);
+	}
 }

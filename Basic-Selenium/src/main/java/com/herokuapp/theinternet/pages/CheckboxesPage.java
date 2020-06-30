@@ -8,35 +8,32 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CheckboxesPage extends BasePage{
-	//private By checkboxLocator=By.xpath("//input[@type='checkbox']");
-	@FindBy(xpath="//input[@type='checkbox']")List <WebElement> checkboxes;
+public class CheckboxesPage extends BasePage {
+	// private By checkboxLocator=By.xpath("//input[@type='checkbox']");
+	@FindBy(xpath = "//input[@type='checkbox']")
+	List<WebElement> checkboxes;
 
 	public CheckboxesPage(WebDriver driver, Logger log) {
 
 		super(driver, log);
 		PageFactory.initElements(driver, this);
 	}
-	
-	public void ClickCheckboxes()
-	{
+
+	public void ClickCheckboxes() {
 		log.info("Tick All checkboxes");
-		//List <WebElement> checkboxes=findAll(checkboxLocator);
+		// List <WebElement> checkboxes=findAll(checkboxLocator);
 		for (WebElement checkbox : checkboxes) {
-			if(!(checkbox.isSelected()))
-			{
+			if (!(checkbox.isSelected())) {
 				checkbox.click();
 			}
 		}
 	}
-	
-	public boolean VerifyCheckboxes()
-	{
+
+	public boolean VerifyCheckboxes() {
 		log.info("Verify All checkboxes are ticked");
-		//List <WebElement> checkboxes=findAll(checkboxLocator);
+		// List <WebElement> checkboxes=findAll(checkboxLocator);
 		for (WebElement checkbox : checkboxes) {
-			if(!(checkbox.isSelected()))
-			{
+			if (!(checkbox.isSelected())) {
 				return false;
 			}
 		}

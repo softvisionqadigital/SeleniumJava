@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="IFrames">
-  <test name="EditorTest" >
-  <parameter name="browser" value="chrome"/>
-       <classes>
-       <class name="com.herokuapp.theinternet.EditorTest">
-       <methods>
-        <include name="EditorTest" />
-      </methods>
-      </class>
-    </classes>
-  </test>
+	<test name="EditorTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.EditorTest">
+				<methods>
+					<include name="Editor" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>

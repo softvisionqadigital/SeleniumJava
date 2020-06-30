@@ -5,31 +5,29 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class AlertsPage extends BasePage{
-	private By JSAlertLocator=By.xpath("//button[@onclick='jsAlert()']");
-	private By JSConfirmLocator=By.xpath("//button[@onclick='jsConfirm()']");
-	private By JSPromptLocator=By.xpath("//button[@onclick='jsPrompt()']");
-	private By resultLocator=By.xpath("//p[@id='result']");
-	private String JSAlertMessage="You successfuly clicked an alert";
-	private String JSAcceptMessage="You clicked: Ok";
-	private String JSDismissMessage="You clicked: Cancel";
-	private String JSPromptMessage="You entered: test";
-	private String JSPromptCancelMessage="You entered: null";
-	
+public class AlertsPage extends BasePage {
+	private By JSAlertLocator = By.xpath("//button[@onclick='jsAlert()']");
+	private By JSConfirmLocator = By.xpath("//button[@onclick='jsConfirm()']");
+	private By JSPromptLocator = By.xpath("//button[@onclick='jsPrompt()']");
+	private By resultLocator = By.xpath("//p[@id='result']");
+	private String JSAlertMessage = "You successfuly clicked an alert";
+	private String JSAcceptMessage = "You clicked: Ok";
+	private String JSDismissMessage = "You clicked: Cancel";
+	private String JSPromptMessage = "You entered: test";
+	private String JSPromptCancelMessage = "You entered: null";
+
 	public AlertsPage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
-	
-	public void JSAlertTest()
-	{
+
+	public void JSAlertTest() {
 		log.info("Test JS Alert");
 		click(JSAlertLocator);
 		switchAlert().accept();
 		VerifyResultMessage(JSAlertMessage);
 	}
-	
-	public void JSConfirmTest()
-	{
+
+	public void JSConfirmTest() {
 		log.info("Test JS Confirm");
 		click(JSConfirmLocator);
 		switchAlert().accept();
@@ -38,9 +36,8 @@ public class AlertsPage extends BasePage{
 		switchAlert().dismiss();
 		VerifyResultMessage(JSDismissMessage);
 	}
-	
-	public void JSPromptTest()
-	{
+
+	public void JSPromptTest() {
 		log.info("Test JS Prompt");
 		click(JSPromptLocator);
 		switchAlert().sendKeys("test");
@@ -50,11 +47,10 @@ public class AlertsPage extends BasePage{
 		switchAlert().dismiss();
 		VerifyResultMessage(JSPromptCancelMessage);
 	}
-	
-	public void VerifyResultMessage(String message)
-	{
+
+	public void VerifyResultMessage(String message) {
 		log.info("Verify Result Message");
-		String actual=getContent(resultLocator);
-		Assert.assertTrue(actual.contains(message));	
+		String actual = getContent(resultLocator);
+		Assert.assertTrue(actual.contains(message));
 	}
 }

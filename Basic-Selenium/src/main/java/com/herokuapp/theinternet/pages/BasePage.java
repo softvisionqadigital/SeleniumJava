@@ -27,7 +27,7 @@ public class BasePage {
 	protected String getCurrentPageTitle() {
 		return driver.getTitle();
 	}
-	
+
 	protected String getCurrentPageURL() {
 		return driver.getCurrentUrl();
 	}
@@ -75,45 +75,41 @@ public class BasePage {
 			}
 		}
 	}
-	
-	protected void SwitchtoIframe(By locator)
-	{
+
+	protected void SwitchtoIframe(By locator) {
 		driver.switchTo().frame(find(locator));
 	}
-	
-	protected void KeyPress(Keys key)
-	{
-		Actions action=new Actions(driver);
-		action.sendKeys(key).build().perform();
-	}
-	
-	protected void DragandDrop(By from,By to)
-	{
-		//Actions action=new Actions(driver);
-		//action.dragAndDrop(find(from),find(to));
-		//action.clickAndHold(find(from)).moveToElement(find(to)).release(find(from)).perform();
-		final String java_script =
-				"var src=arguments[0],tgt=arguments[1];var dataTransfer={dropEffe" +
-				                "ct:'',effectAllowed:'all',files:[],items:{},types:[],setData:fun" +
-				                "ction(format,data){this.items[format]=data;this.types.append(for" +
-				                "mat);},getData:function(format){return this.items[format];},clea" +
-				                "rData:function(format){}};var emit=function(event,target){var ev" +
-				                "t=document.createEvent('Event');evt.initEvent(event,true,false);" +
-				                "evt.dataTransfer=dataTransfer;target.dispatchEvent(evt);};emit('" +
-				                "dragstart',src);emit('dragenter',tgt);emit('dragover',tgt);emit(" +
-				                "'drop',tgt);emit('dragend',src);";
 
-				        ((JavascriptExecutor)driver).executeScript(java_script, find(from), find(to));
+	protected void KeyPress(By locator, Keys key) {
+		waitForvisibility(locator, 5);
+		find(locator).sendKeys(key);
+	}
+
+	protected void DragandDrop(By from, By to) {
+		// Actions action=new Actions(driver);
+		// action.dragAndDrop(find(from),find(to));
+		// action.clickAndHold(find(from)).moveToElement(find(to)).release(find(from)).perform();
+		final String java_script = "var src=arguments[0],tgt=arguments[1];var dataTransfer={dropEffe"
+				+ "ct:'',effectAllowed:'all',files:[],items:{},types:[],setData:fun"
+				+ "ction(format,data){this.items[format]=data;this.types.append(for"
+				+ "mat);},getData:function(format){return this.items[format];},clea"
+				+ "rData:function(format){}};var emit=function(event,target){var ev"
+				+ "t=document.createEvent('Event');evt.initEvent(event,true,false);"
+				+ "evt.dataTransfer=dataTransfer;target.dispatchEvent(evt);};emit('"
+				+ "dragstart',src);emit('dragenter',tgt);emit('dragover',tgt);emit("
+				+ "'drop',tgt);emit('dragend',src);";
+
+		((JavascriptExecutor) driver).executeScript(java_script, find(from), find(to));
 	}
 
 	protected String getContent(By locator) {
 		waitForvisibility(locator, 10);
 		return find(locator).getText();
 	}
-	
+
 	protected void Hover(WebElement element) {
-		Actions action=new Actions(driver);
-		action.moveToElement(element).build().perform();	
+		Actions action = new Actions(driver);
+		action.moveToElement(element).build().perform();
 	}
 
 	protected void waitForvisibility(By locator, long time) {

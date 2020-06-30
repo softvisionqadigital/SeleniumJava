@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="DynamicControls">
-  <test name="DynamicControlsTest" >
-  <parameter name="browser" value="Firefox"/>
-       <classes>
-       <class name="com.herokuapp.theinternet.DynamicControlsTest">
-       <methods>
-        <include name="dynamiccontrols" />
-      </methods>
-      </class>
-    </classes>
-  </test>
+	<test name="DynamicControlsTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.herokuapp.theinternet.DynamicControlsTest">
+				<methods>
+					<include name="dynamiccontrols" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>

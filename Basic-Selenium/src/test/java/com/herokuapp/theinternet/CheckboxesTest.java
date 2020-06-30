@@ -11,9 +11,9 @@ public class CheckboxesTest extends TestUtilities {
 
 	@Test
 	public void Checkboxes() {
-		WelcomePage welcomepage=new WelcomePage(driver,log);
+		WelcomePage welcomepage = new WelcomePage(driver, log);
 		welcomepage.openpage();
-		CheckboxesPage checkboxesPage=welcomepage.ClickCheckboxes();
+		CheckboxesPage checkboxesPage = welcomepage.ClickCheckboxes();
 		checkboxesPage.ClickCheckboxes();
 		Assert.assertTrue(checkboxesPage.VerifyCheckboxes());
 	}

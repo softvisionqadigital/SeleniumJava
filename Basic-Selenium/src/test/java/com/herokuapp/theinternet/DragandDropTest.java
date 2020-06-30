@@ -6,14 +6,14 @@ import com.herokuapp.theinternet.base.TestUtilities;
 import com.herokuapp.theinternet.pages.DragandDropPage;
 import com.herokuapp.theinternet.pages.WelcomePage;
 
-public class DragandDropTest extends TestUtilities{
+public class DragandDropTest extends TestUtilities {
 
 	@Test
-	public void DragandDropTest() {
+	public void DragandDropFunction() {
 
-		WelcomePage welcomepage=new WelcomePage(driver,log);
+		WelcomePage welcomepage = new WelcomePage(driver, log);
 		welcomepage.openpage();
-		DragandDropPage draganddroppage=welcomepage.ClickDragandDrop();
+		DragandDropPage draganddroppage = welcomepage.ClickDragandDrop();
 		draganddroppage.DragandDropA();
 		draganddroppage.VerifyDragandDrop();
 	}

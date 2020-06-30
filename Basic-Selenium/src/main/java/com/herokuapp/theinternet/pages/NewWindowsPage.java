@@ -4,15 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.apache.logging.log4j.Logger;
 
-public class NewWindowsPage extends BasePage{
+public class NewWindowsPage extends BasePage {
 
 	public NewWindowsPage(WebDriver driver, Logger log) {
-		super(driver,log);
+		super(driver, log);
 	}
-	public void VerifyNewWindow()
-	{
+
+	public void VerifyNewWindow() {
 		log.info("Verify the title of New Window");
-		String actualWindow=getCurrentPageTitle();
+		String actualWindow = getCurrentPageTitle();
 		Assert.assertTrue(actualWindow.contains("New Window"));
 	}
 

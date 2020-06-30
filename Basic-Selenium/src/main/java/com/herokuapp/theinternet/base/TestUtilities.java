@@ -1,7 +1,9 @@
 package com.herokuapp.theinternet.base;
 
+import org.testng.annotations.DataProvider;
+
 public class TestUtilities extends BaseFunctions {
-	
+
 	protected void waitMethod() {
 		try {
 			Thread.sleep(5000);
@@ -11,4 +13,8 @@ public class TestUtilities extends BaseFunctions {
 		}
 	}
 
+	@DataProvider(name = "files")
+	protected static Object[][] files() {
+		return new Object[][] { { 1, "Chrysanthemum.jpg" }, { 2, "Desert.jpg" }, { 3, "test.txt" } };
+	}
 }

@@ -6,26 +6,25 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class KeyPressesPage extends BasePage{
-	
-	private By MessageLocator=By.xpath("//p[@id='result']");
-	private String message="You entered: ENTER";
+public class KeyPressesPage extends BasePage {
+
+	private By textboxLocator = By.xpath("//form/input[@id='target']");
+	private By MessageLocator = By.xpath("//p[@id='result']");
+	private String message = "You entered: SPACE";
 
 	public KeyPressesPage(WebDriver driver, Logger log) {
-		
-		super(driver,log);
+
+		super(driver, log);
 	}
-	
-	public void KeyPress()
-	{
+
+	public void KeyPress() {
 		log.info("Press Enter Key");
-		KeyPress(Keys.ENTER);
+		KeyPress(textboxLocator, Keys.SPACE);
 	}
-	
-	public void VerifyKeyPressed()
-	{
+
+	public void VerifyKeyPressed() {
 		log.info("Verify the Key Pressed");
-		String actual=getContent(MessageLocator);
+		String actual = getContent(MessageLocator);
 		Assert.assertTrue(actual.contains(message));
 	}
 

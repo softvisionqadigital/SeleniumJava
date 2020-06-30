@@ -5,25 +5,34 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
-	
-	
-	  private By usernameLocator=By.name("username"); 
-	  private By passwordLocator=By.name("password"); 
-	  private By loginbtnLocator=By.xpath("//button[@class='radius']");
-	
- LoginPage(WebDriver driver, Logger log) {
-		
-			super(driver, log);
-	}
-	
-	public SecureAreaPage LogIn(String username,String password)
-	{
-		log.info("Enter username and password");
-		
-		  type(username, usernameLocator); 
-		  type(password, passwordLocator);
-		  click(loginbtnLocator);
-		return new SecureAreaPage(driver,log);
+
+	private By usernameLocator = By.name("username");
+	private By passwordLocator = By.name("password");
+	private By loginbtnLocator = By.xpath("//button[@class='radius']");
+	private By messageLocator = By.xpath("//div[@class='row']/div/div[@id='flash']");
+
+	LoginPage(WebDriver driver, Logger log) {
+
+		super(driver, log);
 	}
 
+	public SecureAreaPage PositiveLogInTest(String username, String password) {
+		log.info("Positive Log In Test");
+		type(username, usernameLocator);
+		type(password, passwordLocator);
+		click(loginbtnLocator);
+		return new SecureAreaPage(driver, log);
+	}
+
+	public void NegativeLogInTest(String username, String password) {
+		log.info("Positive Log In Test");
+		type(username, usernameLocator);
+		type(password, passwordLocator);
+		click(loginbtnLocator);
+	}
+
+	public String GetMessage() {
+		log.info("Get Log in Message");
+		return getContent(messageLocator);
+	}
 }
