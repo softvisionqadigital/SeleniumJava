@@ -16,14 +16,12 @@ public class UploadPage extends BasePage {
 	}
 
 	public void UploadFile(String fileName) {
-		log.info("Upload the file:" + fileName);
 		String FilePath = System.getProperty("user.dir") + "\\src\\main\\resources\\Files\\" + fileName;
 		type(FilePath, ChooseFileLocator);
 		click(UploadButtonLocator);
 	}
 
 	public void VerifyFile(String fileName) {
-		log.info("Verify the uploaded file");
 		String actual = getContent(FileNameLocator);
 		Assert.assertTrue(actual.contains(fileName));
 	}

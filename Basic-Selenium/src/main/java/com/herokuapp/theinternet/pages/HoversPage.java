@@ -19,7 +19,6 @@ public class HoversPage extends BasePage {
 	}
 
 	public void HoverTests(int i) {
-		log.info("Test the Hovers");
 		List<WebElement> images = findAll(imgLocator);
 		WebElement image = images.get(i - 1);
 		Hover(image);

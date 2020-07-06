@@ -17,7 +17,6 @@ public class LoginPage extends BasePage {
 	}
 
 	public SecureAreaPage PositiveLogInTest(String username, String password) {
-		log.info("Positive Log In Test");
 		type(username, usernameLocator);
 		type(password, passwordLocator);
 		click(loginbtnLocator);
@@ -25,14 +24,12 @@ public class LoginPage extends BasePage {
 	}
 
 	public void NegativeLogInTest(String username, String password) {
-		log.info("Positive Log In Test");
 		type(username, usernameLocator);
 		type(password, passwordLocator);
 		click(loginbtnLocator);
 	}
 
 	public String GetMessage() {
-		log.info("Get Log in Message");
 		return getContent(messageLocator);
 	}
 }

@@ -15,7 +15,6 @@ public class HorizontalSliderPage extends BasePage {
 	}
 
 	public void MoveSlider(String value) {
-		log.info("Move the Slider to required value");
 		int steps = (int) (Double.parseDouble(value) / 0.5);
 		for (int i = 0; i < steps; i++) {
 			KeyPress(SliderLocator, Keys.ARROW_RIGHT);
@@ -23,13 +22,6 @@ public class HorizontalSliderPage extends BasePage {
 	}
 
 	public void VerifyValue(String value) {
-		log.info("Verify the value");
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		String actual = getContent(ValueLocator);
 		Assert.assertTrue(actual.contains((value)));
 	}

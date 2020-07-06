@@ -1,0 +1,8 @@
+[main] 22:19:06,947 INFO  [NewWindowsTest] Test NewWindows passed
+[main] 22:19:06,950 INFO  [NewWindowsTest] Close driver
+[main] 22:19:07,623 INFO  [NewWindowsTest] All NewWindowsTest finished
+[main] 22:19:07,647 INFO  [PositiveTest] Test PositiveTest Started
+[main] 22:19:07,656 INFO  [PositiveTest] Create driver: chrome
+[main] 22:19:10,512 INFO  [PositiveTest] Test PositiveLogin started
+[main] 22:19:21,279 INFO  [PositiveTest] Test PositiveLogin passed
+[main] 22:19:21,283 INFO  [PositiveTest] Close driver

@@ -11,7 +11,6 @@ public class NewWindowsPage extends BasePage {
 	}
 
 	public void VerifyNewWindow() {
-		log.info("Verify the title of New Window");
 		String actualWindow = getCurrentPageTitle();
 		Assert.assertTrue(actualWindow.contains("New Window"));
 	}

@@ -1,0 +1,7 @@
+[main] 22:16:59,034 INFO  [DynamicControlsTest] Test DynamicControlsTest Started
+[main] 22:16:59,055 INFO  [DynamicControlsTest] Create driver: firefox
+[main] 22:17:04,180 INFO  [DynamicControlsTest] Test dynamiccontrols started
+[main] 22:17:29,607 INFO  [DynamicControlsTest] Test dynamiccontrols passed
+[main] 22:17:29,609 INFO  [DynamicControlsTest] Close driver
+[main] 22:17:32,906 INFO  [DynamicControlsTest] All DynamicControlsTest finished
+[main] 22:17:32,931 INFO  [EditorTest] Test EditorTest Started

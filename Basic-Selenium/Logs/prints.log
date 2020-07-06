@@ -1,0 +1,6 @@
+[main] 22:19:47,690 INFO  [UploadTest] Close driver
+[main] 22:19:48,598 INFO  [UploadTest] Create driver: chrome
+[main] 22:19:51,514 INFO  [UploadTest] Test Upload started
+[main] 22:19:58,571 INFO  [UploadTest] Test Upload passed
+[main] 22:19:58,574 INFO  [UploadTest] Close driver
+[main] 22:19:59,710 INFO  [UploadTest] All UploadTest finished

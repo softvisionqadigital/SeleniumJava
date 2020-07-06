@@ -16,6 +16,7 @@ public class PositiveLoginTest extends TestUtilities {
 		WelcomePage welcomepage = new WelcomePage(driver, log);
 		welcomepage.openpage();
 		LoginPage loginpage = welcomepage.ClickFormAuth();
+		takeScreenshot("Login Page");
 		SecureAreaPage secureareapage = loginpage.PositiveLogInTest(name, password);
 		String actual = secureareapage.GetMessage();
 		Assert.assertTrue(actual.contains(message));

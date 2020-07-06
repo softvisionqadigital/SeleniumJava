@@ -1,0 +1,8 @@
+[main] 22:18:34,164 INFO  [WrongUsername] Test NegativeLogin passed
+[main] 22:18:34,168 INFO  [WrongUsername] Close driver
+[main] 22:18:34,877 INFO  [WrongUsername] Create driver: chrome
+[main] 22:18:37,656 INFO  [WrongUsername] Test NegativeLogin started
+[main] 22:18:37,659 INFO  [WrongUsername] Starting Negative Login Test 3:Blank Username
+[main] 22:18:44,850 INFO  [WrongUsername] Test NegativeLogin passed
+[main] 22:18:44,851 INFO  [WrongUsername] Close driver
+[main] 22:18:45,514 INFO  [WrongUsername] Create driver: chrome

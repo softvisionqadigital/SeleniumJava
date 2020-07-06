@@ -1,0 +1,8 @@
+[main] 22:15:49,658 INFO  [AlertsTest] Test AlertsTest Started
+[main] 22:15:49,712 INFO  [AlertsTest] Create driver: chrome
+[main] 22:15:53,570 INFO  [AlertsTest] Test AlertsFunction started
+[main] 22:16:30,487 INFO  [AlertsTest] Test AlertsFunction passed
+[main] 22:16:30,489 INFO  [AlertsTest] Close driver
+[main] 22:16:31,200 INFO  [AlertsTest] All AlertsTest finished
+[main] 22:16:31,254 INFO  [CheckboxesTest] Test CheckboxesTest Started
+[main] 22:16:31,259 INFO  [CheckboxesTest] Create driver: chrome

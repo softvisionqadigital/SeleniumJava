@@ -1,0 +1,8 @@
+[main] 22:18:02,866 INFO  [HoversTest] All HoversTest finished
+[main] 22:18:02,896 INFO  [KeyPressesTest] Test KeyPressesTest Started
+[main] 22:18:02,900 INFO  [KeyPressesTest] Create driver: chrome
+[main] 22:18:05,662 INFO  [KeyPressesTest] Test KeyPresses started
+[main] 22:18:10,825 INFO  [KeyPressesTest] Test KeyPresses passed
+[main] 22:18:10,834 INFO  [KeyPressesTest] Close driver
+[main] 22:18:11,544 INFO  [KeyPressesTest] All KeyPressesTest finished
+[main] 22:18:11,562 INFO  [WrongUsername] Test WrongUsername Started

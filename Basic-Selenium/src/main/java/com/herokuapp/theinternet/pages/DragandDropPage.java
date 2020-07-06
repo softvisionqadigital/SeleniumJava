@@ -16,12 +16,10 @@ public class DragandDropPage extends BasePage {
 	}
 
 	public void DragandDropA() {
-		log.info("Drag and Drop the Column A");
 		DragandDrop(ColumnALocator, ColumnBLocator);
 	}
 
 	public void VerifyDragandDrop() {
-		log.info("Verify the Drag and Drop");
 		String actual = getContent(ColumnBHeader);
 		Assert.assertTrue(actual.contains("A"));
 	}

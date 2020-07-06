@@ -14,13 +14,11 @@ public class DropdownPage extends BasePage {
 	}
 
 	public void SelectOption(int i) {
-		log.info("Select the option: " + i);
 		Select dropdown = new Select(find(DropdownLocator));
 		dropdown.selectByIndex(i);
 	}
 
 	public void ValidateDropdown() {
-		log.info("Get the selected option");
 		Select dropdown = new Select(find(DropdownLocator));
 		log.info(dropdown.getFirstSelectedOption().getText());
 	}

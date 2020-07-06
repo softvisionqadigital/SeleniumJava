@@ -1,0 +1,85 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FullTest">
+	<test name="AlertsTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.AlertsTest" />
+		</classes>
+	</test>
+	<test name="CheckboxesTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.CheckboxesTest" />
+		</classes>
+	</test>
+	<test name="DragandDropTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.DragandDropTest" />
+		</classes>
+	</test>
+	<test name="DropdownTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.DropdownTest" />
+		</classes>
+	</test>
+	<test name="DynamicControlsTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.herokuapp.theinternet.DynamicControlsTest" />
+		</classes>
+	</test>
+	<test name="EditorTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.EditorTest" />
+		</classes>
+	</test>
+	<test name="HorizontalSliderTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.HorizontalSliderTest" />
+		</classes>
+	</test>
+	<test name="HoversTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.HoversTest" />
+		</classes>
+	</test>
+	<test name="KeyPressesTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.KeyPressesTest" />
+		</classes>
+	</test>
+	<test name="WrongUsername">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.NegativeLoginTest" />
+		</classes>
+	</test>
+	<test name="NewWindowsTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.NewWindowsTest" />
+		</classes>
+	</test>
+	<test name="PositiveTest">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="name" value="tomsmith" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<parameter name="message"
+			value="You logged into a secure area!" />
+		<classes>
+			<class name="com.herokuapp.theinternet.PositiveLoginTest" />
+		</classes>
+	</test>
+	<test name="UploadTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.UploadTest" />
+		</classes>
+	</test>
+</suite>

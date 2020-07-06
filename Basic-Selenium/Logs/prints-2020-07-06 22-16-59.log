@@ -1,0 +1,9 @@
+[main] 22:16:49,369 INFO  [DragandDropTest] Close driver
+[main] 22:16:50,027 INFO  [DragandDropTest] All DragandDropTest finished
+[main] 22:16:50,049 INFO  [DropdownTest] Test DropdownTest Started
+[main] 22:16:50,055 INFO  [DropdownTest] Create driver: chrome
+[main] 22:16:52,928 INFO  [DropdownTest] Test Dropdown started
+[main] 22:16:58,176 INFO  [DropdownTest] Option 2
+[main] 22:16:58,176 INFO  [DropdownTest] Test Dropdown passed
+[main] 22:16:58,178 INFO  [DropdownTest] Close driver
+[main] 22:16:59,007 INFO  [DropdownTest] All DropdownTest finished

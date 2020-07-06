@@ -1,29 +1,331 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-28T21:52:04 IST" name="NegativeLoginTest" finished-at="2020-06-28T21:53:00 IST" duration-ms="55545">
+  <suite started-at="2020-07-06T22:15:48 IST" name="FullTest" finished-at="2020-07-06T22:19:59 IST" duration-ms="250868">
     <groups>
     </groups>
-    <test started-at="2020-06-28T21:52:04 IST" name="WrongUsername" finished-at="2020-06-28T21:53:00 IST" duration-ms="55545">
-      <class name="com.herokuapp.theinternet.NegativeLoginTest">
-        <test-method is-config="true" signature="intializeDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:04 IST" name="intializeDriver" finished-at="2020-06-28T21:52:09 IST" duration-ms="4786" status="PASS">
+    <test started-at="2020-07-06T22:15:48 IST" name="AlertsTest" finished-at="2020-07-06T22:16:31 IST" duration-ms="42358">
+      <class name="com.herokuapp.theinternet.AlertsTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.AlertsTest@15b204a1]" started-at="2020-07-06T22:15:49 IST" name="intializeDriver" finished-at="2020-07-06T22:15:53 IST" duration-ms="3865" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[public void com.herokuapp.theinternet.AlertsTest.AlertsFunction()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7e00ed0f]]>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@668a32a4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:09 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-06-28T21:52:20 IST" duration-ms="10636" status="PASS">
+        <test-method signature="AlertsFunction()[pri:0, instance:com.herokuapp.theinternet.AlertsTest@15b204a1]" started-at="2020-07-06T22:15:53 IST" name="AlertsFunction" finished-at="2020-07-06T22:16:30 IST" duration-ms="36913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertsFunction -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.AlertsTest@15b204a1]" started-at="2020-07-06T22:16:30 IST" name="closeDriver" finished-at="2020-07-06T22:16:31 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.AlertsTest -->
+    </test> <!-- AlertsTest -->
+    <test started-at="2020-07-06T22:16:31 IST" name="CheckboxesTest" finished-at="2020-07-06T22:16:41 IST" duration-ms="9989">
+      <class name="com.herokuapp.theinternet.CheckboxesTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.CheckboxesTest@49c386c8]" started-at="2020-07-06T22:16:31 IST" name="intializeDriver" finished-at="2020-07-06T22:16:34 IST" duration-ms="2822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.CheckboxesTest.Checkboxes()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@2026fbff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Checkboxes()[pri:0, instance:com.herokuapp.theinternet.CheckboxesTest@49c386c8]" started-at="2020-07-06T22:16:34 IST" name="Checkboxes" finished-at="2020-07-06T22:16:40 IST" duration-ms="6465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkboxes -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.CheckboxesTest@49c386c8]" started-at="2020-07-06T22:16:40 IST" name="closeDriver" finished-at="2020-07-06T22:16:41 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.CheckboxesTest -->
+    </test> <!-- CheckboxesTest -->
+    <test started-at="2020-07-06T22:16:41 IST" name="DragandDropTest" finished-at="2020-07-06T22:16:50 IST" duration-ms="8752">
+      <class name="com.herokuapp.theinternet.DragandDropTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.DragandDropTest@59d016c9]" started-at="2020-07-06T22:16:41 IST" name="intializeDriver" finished-at="2020-07-06T22:16:44 IST" duration-ms="2945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.DragandDropTest.DragandDropFunction()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@baa227e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="DragandDropFunction()[pri:0, instance:com.herokuapp.theinternet.DragandDropTest@59d016c9]" started-at="2020-07-06T22:16:44 IST" name="DragandDropFunction" finished-at="2020-07-06T22:16:49 IST" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragandDropFunction -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.DragandDropTest@59d016c9]" started-at="2020-07-06T22:16:49 IST" name="closeDriver" finished-at="2020-07-06T22:16:50 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.DragandDropTest -->
+    </test> <!-- DragandDropTest -->
+    <test started-at="2020-07-06T22:16:50 IST" name="DropdownTest" finished-at="2020-07-06T22:16:59 IST" duration-ms="8958">
+      <class name="com.herokuapp.theinternet.DropdownTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.DropdownTest@433d61fb]" started-at="2020-07-06T22:16:50 IST" name="intializeDriver" finished-at="2020-07-06T22:16:52 IST" duration-ms="2874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.DropdownTest.Dropdown()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@351e89fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Dropdown()[pri:0, instance:com.herokuapp.theinternet.DropdownTest@433d61fb]" started-at="2020-07-06T22:16:52 IST" name="Dropdown" finished-at="2020-07-06T22:16:58 IST" duration-ms="5248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dropdown -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.DropdownTest@433d61fb]" started-at="2020-07-06T22:16:58 IST" name="closeDriver" finished-at="2020-07-06T22:16:59 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.DropdownTest -->
+    </test> <!-- DropdownTest -->
+    <test started-at="2020-07-06T22:16:59 IST" name="DynamicControlsTest" finished-at="2020-07-06T22:17:32 IST" duration-ms="33874">
+      <class name="com.herokuapp.theinternet.DynamicControlsTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.DynamicControlsTest@363ee3a2]" started-at="2020-07-06T22:16:59 IST" name="intializeDriver" finished-at="2020-07-06T22:17:04 IST" duration-ms="5131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.DynamicControlsTest.dynamiccontrols()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b682e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="dynamiccontrols()[pri:0, instance:com.herokuapp.theinternet.DynamicControlsTest@363ee3a2]" started-at="2020-07-06T22:17:04 IST" name="dynamiccontrols" finished-at="2020-07-06T22:17:29 IST" duration-ms="25427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamiccontrols -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.DynamicControlsTest@363ee3a2]" started-at="2020-07-06T22:17:29 IST" name="closeDriver" finished-at="2020-07-06T22:17:32 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.DynamicControlsTest -->
+    </test> <!-- DynamicControlsTest -->
+    <test started-at="2020-07-06T22:17:32 IST" name="EditorTest" finished-at="2020-07-06T22:17:44 IST" duration-ms="11359">
+      <class name="com.herokuapp.theinternet.EditorTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.EditorTest@3aefe5e5]" started-at="2020-07-06T22:17:32 IST" name="intializeDriver" finished-at="2020-07-06T22:17:35 IST" duration-ms="2803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.EditorTest.Editor()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@15586843]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Editor()[pri:0, instance:com.herokuapp.theinternet.EditorTest@3aefe5e5]" started-at="2020-07-06T22:17:35 IST" name="Editor" finished-at="2020-07-06T22:17:43 IST" duration-ms="7888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editor -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.EditorTest@3aefe5e5]" started-at="2020-07-06T22:17:43 IST" name="closeDriver" finished-at="2020-07-06T22:17:44 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.EditorTest -->
+    </test> <!-- EditorTest -->
+    <test started-at="2020-07-06T22:17:44 IST" name="HorizontalSliderTest" finished-at="2020-07-06T22:17:53 IST" duration-ms="8866">
+      <class name="com.herokuapp.theinternet.HorizontalSliderTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.HorizontalSliderTest@1c93084c]" started-at="2020-07-06T22:17:44 IST" name="intializeDriver" finished-at="2020-07-06T22:17:47 IST" duration-ms="2861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.HorizontalSliderTest.HorizontalSlider()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fbb1144]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="HorizontalSlider()[pri:0, instance:com.herokuapp.theinternet.HorizontalSliderTest@1c93084c]" started-at="2020-07-06T22:17:47 IST" name="HorizontalSlider" finished-at="2020-07-06T22:17:52 IST" duration-ms="5348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HorizontalSlider -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.HorizontalSliderTest@1c93084c]" started-at="2020-07-06T22:17:52 IST" name="closeDriver" finished-at="2020-07-06T22:17:53 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.HorizontalSliderTest -->
+    </test> <!-- HorizontalSliderTest -->
+    <test started-at="2020-07-06T22:17:53 IST" name="HoversTest" finished-at="2020-07-06T22:18:02 IST" duration-ms="9659">
+      <class name="com.herokuapp.theinternet.HoversTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.HoversTest@2473d930]" started-at="2020-07-06T22:17:53 IST" name="intializeDriver" finished-at="2020-07-06T22:17:56 IST" duration-ms="2939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.HoversTest.Hovers()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@e2b3026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Hovers()[pri:0, instance:com.herokuapp.theinternet.HoversTest@2473d930]" started-at="2020-07-06T22:17:56 IST" name="Hovers" finished-at="2020-07-06T22:18:01 IST" duration-ms="5670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hovers -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.HoversTest@2473d930]" started-at="2020-07-06T22:18:01 IST" name="closeDriver" finished-at="2020-07-06T22:18:02 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.HoversTest -->
+    </test> <!-- HoversTest -->
+    <test started-at="2020-07-06T22:18:02 IST" name="KeyPressesTest" finished-at="2020-07-06T22:18:11 IST" duration-ms="8648">
+      <class name="com.herokuapp.theinternet.KeyPressesTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.KeyPressesTest@49d904ec]" started-at="2020-07-06T22:18:02 IST" name="intializeDriver" finished-at="2020-07-06T22:18:05 IST" duration-ms="2763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.KeyPressesTest.KeyPresses()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@38bc5ac0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="KeyPresses()[pri:0, instance:com.herokuapp.theinternet.KeyPressesTest@49d904ec]" started-at="2020-07-06T22:18:05 IST" name="KeyPresses" finished-at="2020-07-06T22:18:10 IST" duration-ms="5163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeyPresses -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.KeyPressesTest@49d904ec]" started-at="2020-07-06T22:18:10 IST" name="closeDriver" finished-at="2020-07-06T22:18:11 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.KeyPressesTest -->
+    </test> <!-- KeyPressesTest -->
+    <test started-at="2020-07-06T22:18:11 IST" name="WrongUsername" finished-at="2020-07-06T22:18:56 IST" duration-ms="45355">
+      <class name="com.herokuapp.theinternet.NegativeLoginTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:11 IST" name="intializeDriver" finished-at="2020-07-06T22:18:14 IST" duration-ms="2895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.NegativeLoginTest.NegativeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ef037e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:14 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-07-06T22:18:22 IST" duration-ms="8209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,27 +356,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NegativeLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:20 IST" name="closeDriver" finished-at="2020-06-28T21:52:21 IST" duration-ms="746" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:22 IST" name="closeDriver" finished-at="2020-07-06T22:18:23 IST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="intializeDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:21 IST" name="intializeDriver" finished-at="2020-06-28T21:52:23 IST" duration-ms="2812" status="PASS">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:23 IST" name="intializeDriver" finished-at="2020-07-06T22:18:26 IST" duration-ms="2926" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[public void com.herokuapp.theinternet.NegativeLoginTest.NegativeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7e00ed0f]]>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ef037e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:23 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-06-28T21:52:34 IST" duration-ms="10875" status="PASS">
+        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:26 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-07-06T22:18:34 IST" duration-ms="7757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,27 +412,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NegativeLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:34 IST" name="closeDriver" finished-at="2020-06-28T21:52:35 IST" duration-ms="1004" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:34 IST" name="closeDriver" finished-at="2020-07-06T22:18:34 IST" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="intializeDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:35 IST" name="intializeDriver" finished-at="2020-06-28T21:52:38 IST" duration-ms="2882" status="PASS">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:34 IST" name="intializeDriver" finished-at="2020-07-06T22:18:37 IST" duration-ms="2782" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[public void com.herokuapp.theinternet.NegativeLoginTest.NegativeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7e00ed0f]]>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ef037e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:38 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-06-28T21:52:48 IST" duration-ms="9438" status="PASS">
+        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:37 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-07-06T22:18:44 IST" duration-ms="7193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,27 +468,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NegativeLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:48 IST" name="closeDriver" finished-at="2020-06-28T21:52:48 IST" duration-ms="710" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:44 IST" name="closeDriver" finished-at="2020-07-06T22:18:45 IST" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="intializeDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:48 IST" name="intializeDriver" finished-at="2020-06-28T21:52:51 IST" duration-ms="3009" status="PASS">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:45 IST" name="intializeDriver" finished-at="2020-07-06T22:18:48 IST" duration-ms="2715" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[public void com.herokuapp.theinternet.NegativeLoginTest.NegativeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7e00ed0f]]>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ef037e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:51 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-06-28T21:52:59 IST" duration-ms="7729" status="PASS">
+        <test-method signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:48 IST" name="NegativeLogin" data-provider="ExcelReader" finished-at="2020-07-06T22:18:56 IST" duration-ms="7917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,11 +524,221 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NegativeLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@15b204a1]" started-at="2020-06-28T21:52:59 IST" name="closeDriver" finished-at="2020-06-28T21:53:00 IST" duration-ms="689" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NegativeLoginTest@3e2e18f2]" started-at="2020-07-06T22:18:56 IST" name="closeDriver" finished-at="2020-07-06T22:18:56 IST" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.herokuapp.theinternet.NegativeLoginTest -->
     </test> <!-- WrongUsername -->
-  </suite> <!-- NegativeLoginTest -->
+    <test started-at="2020-07-06T22:18:56 IST" name="NewWindowsTest" finished-at="2020-07-06T22:19:07 IST" duration-ms="10690">
+      <class name="com.herokuapp.theinternet.NewWindowsTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.NewWindowsTest@17046283]" started-at="2020-07-06T22:18:56 IST" name="intializeDriver" finished-at="2020-07-06T22:18:59 IST" duration-ms="2827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.NewWindowsTest.NewWindows()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@79d63a4f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="NewWindows()[pri:0, instance:com.herokuapp.theinternet.NewWindowsTest@17046283]" started-at="2020-07-06T22:18:59 IST" name="NewWindows" finished-at="2020-07-06T22:19:06 IST" duration-ms="7184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewWindows -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.NewWindowsTest@17046283]" started-at="2020-07-06T22:19:06 IST" name="closeDriver" finished-at="2020-07-06T22:19:07 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.NewWindowsTest -->
+    </test> <!-- NewWindowsTest -->
+    <test started-at="2020-07-06T22:19:07 IST" name="PositiveTest" finished-at="2020-07-06T22:19:21 IST" duration-ms="14351">
+      <class name="com.herokuapp.theinternet.PositiveLoginTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.PositiveLoginTest@10e41621]" started-at="2020-07-06T22:19:07 IST" name="intializeDriver" finished-at="2020-07-06T22:19:10 IST" duration-ms="2856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.PositiveLoginTest.PositiveLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e2b9f53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="PositiveLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.PositiveLoginTest@10e41621]" started-at="2020-07-06T22:19:10 IST" name="PositiveLogin" finished-at="2020-07-06T22:19:21 IST" duration-ms="10768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[You logged into a secure area!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.PositiveLoginTest@10e41621]" started-at="2020-07-06T22:19:21 IST" name="closeDriver" finished-at="2020-07-06T22:19:21 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.PositiveLoginTest -->
+    </test> <!-- PositiveTest -->
+    <test started-at="2020-07-06T22:19:22 IST" name="UploadTest" finished-at="2020-07-06T22:19:59 IST" duration-ms="37689">
+      <class name="com.herokuapp.theinternet.UploadTest">
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:22 IST" name="intializeDriver" finished-at="2020-07-06T22:19:24 IST" duration-ms="2836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.UploadTest.Upload(int,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@749baa0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Upload(int, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:24 IST" name="Upload" data-provider="files" finished-at="2020-07-06T22:19:34 IST" duration-ms="9197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrysanthemum.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:34 IST" name="closeDriver" finished-at="2020-07-06T22:19:34 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:34 IST" name="intializeDriver" finished-at="2020-07-06T22:19:37 IST" duration-ms="2886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.UploadTest.Upload(int,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@749baa0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Upload(int, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:37 IST" name="Upload" data-provider="files" finished-at="2020-07-06T22:19:47 IST" duration-ms="10050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desert.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:47 IST" name="closeDriver" finished-at="2020-07-06T22:19:48 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="intializeDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:48 IST" name="intializeDriver" finished-at="2020-07-06T22:19:51 IST" duration-ms="2917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.UploadTest.Upload(int,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@749baa0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method signature="Upload(int, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:51 IST" name="Upload" data-provider="files" finished-at="2020-07-06T22:19:58 IST" duration-ms="7057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.herokuapp.theinternet.UploadTest@654f0d9c]" started-at="2020-07-06T22:19:58 IST" name="closeDriver" finished-at="2020-07-06T22:19:59 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.herokuapp.theinternet.UploadTest -->
+    </test> <!-- UploadTest -->
+  </suite> <!-- FullTest -->
 </testng-results>

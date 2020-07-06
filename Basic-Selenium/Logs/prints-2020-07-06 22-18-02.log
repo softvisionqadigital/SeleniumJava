@@ -1,0 +1,8 @@
+[main] 22:17:52,543 INFO  [HorizontalSliderTest] Test HorizontalSlider passed
+[main] 22:17:52,546 INFO  [HorizontalSliderTest] Close driver
+[main] 22:17:53,183 INFO  [HorizontalSliderTest] All HorizontalSliderTest finished
+[main] 22:17:53,207 INFO  [HoversTest] Test HoversTest Started
+[main] 22:17:53,210 INFO  [HoversTest] Create driver: chrome
+[main] 22:17:56,148 INFO  [HoversTest] Test Hovers started
+[main] 22:18:01,818 INFO  [HoversTest] Test Hovers passed
+[main] 22:18:01,820 INFO  [HoversTest] Close driver

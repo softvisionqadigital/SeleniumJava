@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UploadFile">
+	<test name="UploadTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.UploadTest"/>
+		</classes>
+	</test>
+</suite>

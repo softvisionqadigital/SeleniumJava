@@ -16,7 +16,6 @@ public class EditorPage extends BasePage {
 	}
 
 	public void VerifyDefaultText() {
-		log.info("Verify default Text in Editor");
 		SwitchtoIframe(frameLocator);
 		String actual = getContent(TextLocator);
 		Assert.assertTrue(actual.contains(DefaultText));

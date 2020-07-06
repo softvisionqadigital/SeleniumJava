@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
-
+	<Properties>
+		<Property name="Logs">./logs</Property>
+	</Properties>
 	<Appenders>
+		<RollingFile name="File" fileName="Logs/prints.log"
+			filePattern="Logs/prints-%d{yyyy-MM-dd} %d{HH-mm-ss}.log">
+			<PatternLayout
+				pattern="[%t] %d{HH:mm:ss,SSS} %-5p [%c{1}] %m%n" />
+			<SizeBasedTriggeringPolicy size="500" />
+		</RollingFile>
 		<Console name="ConsoleAppender" target="SYSTEM_OUT">
-			<PatternLayout pattern="[%t] %d{HH:mm:ss,SSS} %-5p [%c{1}] %m%n" />
+			<PatternLayout
+				pattern="[%t] %d{HH:mm:ss,SSS} %-5p [%c{1}] %m%n" />
 		</Console>
 	</Appenders>
 
 	<Loggers>
 		<Root level="TRACE">
-			<AppenderRef ref="ConsoleAppender" />
+			<!-- <AppenderRef ref="ConsoleAppender" /> -->
+			<AppenderRef ref="File" />
 		</Root>
 	</Loggers>
 

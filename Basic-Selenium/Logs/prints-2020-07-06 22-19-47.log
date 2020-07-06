@@ -1,0 +1,9 @@
+[main] 22:19:21,996 INFO  [PositiveTest] All PositiveTest finished
+[main] 22:19:22,021 INFO  [UploadTest] Test UploadTest Started
+[main] 22:19:22,033 INFO  [UploadTest] Create driver: chrome
+[main] 22:19:24,867 INFO  [UploadTest] Test Upload started
+[main] 22:19:34,064 INFO  [UploadTest] Test Upload passed
+[main] 22:19:34,067 INFO  [UploadTest] Close driver
+[main] 22:19:34,753 INFO  [UploadTest] Create driver: chrome
+[main] 22:19:37,638 INFO  [UploadTest] Test Upload started
+[main] 22:19:47,688 INFO  [UploadTest] Test Upload passed

@@ -18,12 +18,10 @@ public class KeyPressesPage extends BasePage {
 	}
 
 	public void KeyPress() {
-		log.info("Press Enter Key");
 		KeyPress(textboxLocator, Keys.SPACE);
 	}
 
 	public void VerifyKeyPressed() {
-		log.info("Verify the Key Pressed");
 		String actual = getContent(MessageLocator);
 		Assert.assertTrue(actual.contains(message));
 	}

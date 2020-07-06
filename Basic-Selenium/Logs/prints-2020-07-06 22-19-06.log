@@ -1,0 +1,8 @@
+[main] 22:18:48,229 INFO  [WrongUsername] Test NegativeLogin started
+[main] 22:18:48,236 INFO  [WrongUsername] Starting Negative Login Test 4:Blank Password
+[main] 22:18:56,146 INFO  [WrongUsername] Test NegativeLogin passed
+[main] 22:18:56,147 INFO  [WrongUsername] Close driver
+[main] 22:18:56,915 INFO  [WrongUsername] All WrongUsername finished
+[main] 22:18:56,933 INFO  [NewWindowsTest] Test NewWindowsTest Started
+[main] 22:18:56,937 INFO  [NewWindowsTest] Create driver: chrome
+[main] 22:18:59,764 INFO  [NewWindowsTest] Test NewWindows started

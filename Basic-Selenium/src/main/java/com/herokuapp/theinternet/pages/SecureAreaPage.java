@@ -14,12 +14,10 @@ public class SecureAreaPage extends BasePage {
 	}
 
 	public String GetMessage() {
-		log.info("Get Log in Message");
 		return getContent(messageLocator);
 	}
 
 	public void Logout() {
-		log.info("Click Log out button");
 		click(LogoutLocator);
 	}
 }

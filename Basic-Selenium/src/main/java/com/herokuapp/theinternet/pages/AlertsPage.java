@@ -21,14 +21,12 @@ public class AlertsPage extends BasePage {
 	}
 
 	public void JSAlertTest() {
-		log.info("Test JS Alert");
 		click(JSAlertLocator);
 		switchAlert().accept();
 		VerifyResultMessage(JSAlertMessage);
 	}
 
 	public void JSConfirmTest() {
-		log.info("Test JS Confirm");
 		click(JSConfirmLocator);
 		switchAlert().accept();
 		VerifyResultMessage(JSAcceptMessage);
@@ -38,7 +36,6 @@ public class AlertsPage extends BasePage {
 	}
 
 	public void JSPromptTest() {
-		log.info("Test JS Prompt");
 		click(JSPromptLocator);
 		switchAlert().sendKeys("test");
 		switchAlert().accept();
@@ -49,7 +46,6 @@ public class AlertsPage extends BasePage {
 	}
 
 	public void VerifyResultMessage(String message) {
-		log.info("Verify Result Message");
 		String actual = getContent(resultLocator);
 		Assert.assertTrue(actual.contains(message));
 	}

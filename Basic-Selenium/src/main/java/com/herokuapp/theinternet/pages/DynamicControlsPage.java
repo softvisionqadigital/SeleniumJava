@@ -20,7 +20,6 @@ public class DynamicControlsPage extends BasePage {
 	}
 
 	public void ValidateTextbox() {
-		log.info("Validate Textbox");
 		click(EnableButtonLocator);
 		waitForclickable(TextboxLocator, 10);
 		type("test", TextboxLocator);
@@ -28,7 +27,6 @@ public class DynamicControlsPage extends BasePage {
 	}
 
 	public void ValidateCheckbox() {
-		log.info("Validate Checkbox");
 		click(RemoveButtonLocator);
 		waitForvisibility(GoneMessageLocator, 10);
 		click(AddButtonLocator);

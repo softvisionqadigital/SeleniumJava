@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DragandDrop">
+	<test name="DragandDropTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.DragandDropTest"/>
+		</classes>
+	</test>
+</suite>

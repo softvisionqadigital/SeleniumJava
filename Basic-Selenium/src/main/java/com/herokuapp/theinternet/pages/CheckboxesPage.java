@@ -20,7 +20,6 @@ public class CheckboxesPage extends BasePage {
 	}
 
 	public void ClickCheckboxes() {
-		log.info("Tick All checkboxes");
 		// List <WebElement> checkboxes=findAll(checkboxLocator);
 		for (WebElement checkbox : checkboxes) {
 			if (!(checkbox.isSelected())) {
@@ -30,7 +29,6 @@ public class CheckboxesPage extends BasePage {
 	}
 
 	public boolean VerifyCheckboxes() {
-		log.info("Verify All checkboxes are ticked");
 		// List <WebElement> checkboxes=findAll(checkboxLocator);
 		for (WebElement checkbox : checkboxes) {
 			if (!(checkbox.isSelected())) {

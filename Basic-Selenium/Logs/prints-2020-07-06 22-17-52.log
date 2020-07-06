@@ -1,0 +1,8 @@
+[main] 22:17:32,936 INFO  [EditorTest] Create driver: chrome
+[main] 22:17:35,738 INFO  [EditorTest] Test Editor started
+[main] 22:17:43,626 INFO  [EditorTest] Test Editor passed
+[main] 22:17:43,627 INFO  [EditorTest] Close driver
+[main] 22:17:44,289 INFO  [EditorTest] All EditorTest finished
+[main] 22:17:44,317 INFO  [HorizontalSliderTest] Test HorizontalSliderTest Started
+[main] 22:17:44,335 INFO  [HorizontalSliderTest] Create driver: chrome
+[main] 22:17:47,195 INFO  [HorizontalSliderTest] Test HorizontalSlider started
