@@ -11,6 +11,9 @@ import com.Pages.Homepage;
 import com.Pages.LoginPage;
 import com.base.ReadExcel;
 import com.base.initDriver;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class TestCases extends initDriver {
 	
@@ -23,6 +26,8 @@ public class TestCases extends initDriver {
 	public static String[][] data1;
 	public static String[][] formDetl;
 	public static int k;
+	static ExtentTest test;
+	static ExtentReports report;
 	
 	initDriver obj = new initDriver();
 	
@@ -33,6 +38,8 @@ public class TestCases extends initDriver {
 	
 	@BeforeTest
 	public void launchbrowser(){
+		report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
+		test = report.startTest("ExtentDemo");
 		login = obj.initializeDriver();
 	}
 	
@@ -45,9 +52,14 @@ public class TestCases extends initDriver {
 		
 		formDetl = ReadExcel.getExcelData(prop.getProperty("ExcelPath"), prop.getProperty("FormDetailSheet"));
 		System.out.println(formDetl[0][0]);
+		
 		form.addTitle(formDetl[0][0]);
 		
 		form.addFormDesc(formDetl[0][1]);
+		
+			test.log(LogStatus.PASS, "New Form is added, Title and Description has been added");
+		
+		
 		Thread.sleep(1000);
 		
 	}
@@ -59,7 +71,7 @@ public class TestCases extends initDriver {
 //		cellcount = ReadExcel.CellCount(prop.getProperty("ExcelPath"), prop.getProperty("Questionssheet"));
 //		System.out.println(cellcount);
 		data1 = ReadExcel.getExcelData(prop.getProperty("ExcelPath"), prop.getProperty("Questionssheet"));
-		
+		test.log(LogStatus.PASS, "Datas has been extracted from Excel");
 	}
 	
 	@Test(priority=2)
@@ -98,8 +110,12 @@ public class TestCases extends initDriver {
 			
 		}
 		Thread.sleep(2000);
+		test.log(LogStatus.PASS, "questions and options has been added to form");
 		
 		form.saveQuiz();
+		
+		test.log(LogStatus.PASS, "Form has been saved as Quiz");
+		
 		
 		//driver.close();
 		
@@ -107,6 +123,8 @@ public class TestCases extends initDriver {
 	
 	@AfterClass
 	public void close(){
+		report.endTest(test);
+		report.flush();
 		driver.close();
 	}
 	

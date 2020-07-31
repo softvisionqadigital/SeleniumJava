@@ -6,7 +6,6 @@
       <class name="Test.TestCases">
         <methods>
           <include name="addquestions"/>
-          <include name="getRowCount"/>
           <include name="login"/>
           <include name="launchbrowser"/>
           <include name="close"/>

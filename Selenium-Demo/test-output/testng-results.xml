@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82386" started-at="2020-06-26T15:09:03 IST" finished-at="2020-06-26T15:10:25 IST">
+  <suite name="Default suite" duration-ms="66826" started-at="2020-07-08T13:29:32 IST" finished-at="2020-07-08T13:30:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82386" started-at="2020-06-26T15:09:03 IST" finished-at="2020-06-26T15:10:25 IST">
+    <test name="Default test" duration-ms="66826" started-at="2020-07-08T13:29:32 IST" finished-at="2020-07-08T13:30:39 IST">
       <class name="Test.TestCases">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Test.TestCases@694e1548]" name="launchbrowser" is-config="true" duration-ms="9910" started-at="2020-06-26T15:09:03 IST" finished-at="2020-06-26T15:09:13 IST">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Test.TestCases@10bbd20a]" name="launchbrowser" is-config="true" duration-ms="8123" started-at="2020-07-08T13:29:32 IST" finished-at="2020-07-08T13:29:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Test.TestCases@694e1548]" name="login" duration-ms="27599" started-at="2020-06-26T15:09:13 IST" finished-at="2020-06-26T15:09:40 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:Test.TestCases@10bbd20a]" name="login" duration-ms="14800" started-at="2020-07-08T13:29:40 IST" finished-at="2020-07-08T13:29:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="getRowCount()[pri:1, instance:Test.TestCases@694e1548]" name="getRowCount" duration-ms="242" started-at="2020-06-26T15:09:40 IST" finished-at="2020-06-26T15:09:41 IST">
+        <test-method status="PASS" signature="getRowCount()[pri:1, instance:Test.TestCases@10bbd20a]" name="getRowCount" duration-ms="46" started-at="2020-07-08T13:29:55 IST" finished-at="2020-07-08T13:29:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRowCount -->
-        <test-method status="PASS" signature="addquestions()[pri:2, instance:Test.TestCases@694e1548]" name="addquestions" duration-ms="44280" started-at="2020-06-26T15:09:41 IST" finished-at="2020-06-26T15:10:25 IST">
+        <test-method status="PASS" signature="addquestions()[pri:2, instance:Test.TestCases@10bbd20a]" name="addquestions" duration-ms="39410" started-at="2020-07-08T13:29:55 IST" finished-at="2020-07-08T13:30:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addquestions -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Test.TestCases@694e1548]" name="close" is-config="true" duration-ms="252" started-at="2020-06-26T15:10:25 IST" finished-at="2020-06-26T15:10:25 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.TestCases@10bbd20a]" name="close" is-config="true" duration-ms="4404" started-at="2020-07-08T13:30:34 IST" finished-at="2020-07-08T13:30:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
