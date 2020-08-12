@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27476" started-at="2020-07-24T08:13:52 AEST" finished-at="2020-07-24T08:14:20 AEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27476" started-at="2020-07-24T08:13:52 AEST" finished-at="2020-07-24T08:14:20 AEST">
+      <class name="xpaths.ActualXpaths">
+        <test-method status="PASS" signature="launch_Browser()[pri:0, instance:xpaths.ActualXpaths@86be70a]" name="launch_Browser" is-config="true" duration-ms="16752" started-at="2020-07-24T08:13:52 AEST" finished-at="2020-07-24T08:14:09 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="PASS" signature="finding_Link()[pri:0, instance:xpaths.ActualXpaths@86be70a]" name="finding_Link" duration-ms="10680" started-at="2020-07-24T08:14:09 AEST" finished-at="2020-07-24T08:14:20 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding_Link -->
+      </class> <!-- xpaths.ActualXpaths -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
