@@ -1,0 +1,4 @@
+url = http://demo.guru99.com/v4
+username = mngr282307
+password = zUpUrEb
+driverpath = src//test//resources//driver//chromedriver.exe
