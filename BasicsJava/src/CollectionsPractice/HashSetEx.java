@@ -9,8 +9,7 @@ public class HashSetEx {
 		// TODO Auto-generated method stub
         //Hashset
 		//Treeset
-	   //LinkedHashset
-		
+	   //LinkedHashset		
 		HashSet<String> h=new HashSet<String>();
 		h.add("test");
 		h.add("new");
