@@ -11,7 +11,7 @@ public class Hooks
 	{
 		System.out.println("before Regresion test");
 	}
-	@After("@RegressionTest")
+	@After("@RegressionTesting")
 	public void m2()
 	{
 		System.out.println("After reg test");
