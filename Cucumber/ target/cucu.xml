@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.584">
+<testcase classname="Login Action" name="Successful login for another user" time="0.2">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName and Password as "reky" and "pas2"..................passed
+Then Message displayed Login Successfully...................................passed
+And the cards are displayed "false".........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Operations Action" name="Successful login for another user" time="0.028">
+<system-out><![CDATA[Given User is in the desktop................................................passed
+When user opens the broswer.................................................passed
+Then User is in the search screen...........................................passed
+Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName and Password as "reky" and "pas2"..................passed
+Then Message displayed Login Successfully...................................passed
+And the cards are displayed "false".........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Operations Action" name="Login with multiple users" time="0.008">
+<system-out><![CDATA[Given User is in the desktop................................................passed
+When user opens the broswer.................................................passed
+Then User is in the search screen...........................................passed
+Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName as and Password as the "Theju" and "Pasw1".........passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Operations Action" name="Login with multiple users 2" time="0.004">
+<system-out><![CDATA[Given User is in the desktop................................................passed
+When user opens the broswer.................................................passed
+Then User is in the search screen...........................................passed
+Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName as and Password as the "sree" and "Pasw2"..........passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Operations Action" name="Login with multiple users 3" time="0.004">
+<system-out><![CDATA[Given User is in the desktop................................................passed
+When user opens the broswer.................................................passed
+Then User is in the search screen...........................................passed
+Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName as and Password as the "Arpi" and "Pasw3"..........passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
