@@ -1,5 +1,0 @@
-pageObjects\LandingPage.class
-pageObjects\LoginPage.class
-E2EFramework\App.class
-resources\Base.class
-resources\ExtentReporterNG.class
